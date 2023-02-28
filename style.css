@@ -1,6 +1,15 @@
+section {
+    overflow: auto;
+}
+
+
+
+
 .foto-omne {
-    width: 350px;
-    float: right;
-    border-radius: 0 50px 50px 50px;
+    width: 183px;
+    float: left;
+    border-radius: 5 50px 50px 50px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    margin: 0 0 30px 30px;
+    margin: 0px 30px 30px 30px;
+    }
+
