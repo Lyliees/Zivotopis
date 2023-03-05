@@ -1,15 +1,104 @@
-section {
-    overflow: auto;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffe5d9;
+  color: #6d6875;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
+.hlavicka {
+  text-align: center;
+}
 
+section {
+  overflow: auto;
+}
 
+h1 {
+  letter-spacing: 15px;
+  font-size: 50px;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  margin-bottom: -10px;
+}
+
+h4 {
+  font-weight: 300;
+  font-style: oblique;
+  margin-bottom: -13px;
+}
+h5 {
+  letter-spacing: 5px;
+  margin-bottom: -5px;
+}
+
+h6 {
+  letter-spacing: 5px;
+}
+
+.omne {
+  padding-bottom: 40px;
+}
+
+.kontakt {
+  background-color: #f4acb7;
+  margin-left: -200px;
+  margin-right: -200px;
+  padding: 35px 100px 35px 376px;
+  color: #9d8189;
+}
+
+.work,
+.education,
+.pc,
+.skills,
+.language {
+  border-top: 2px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+}
 
 .foto-omne {
-    width: 183px;
-    float: left;
-    border-radius: 5 50px 50px 50px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    margin: 0px 30px 30px 30px;
-    }
+  width: 183px;
+  float: left;
+  border-radius: 5px 50px 50px 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  margin: 0px 50px 20px 20px;
+}
 
+.ikona {
+  width: 15px;
+}
+
+.div {
+  background-color: antiquewhite;
+}
+
+em {
+  font-style: italic;
+  font-weight: 100;
+}
+
+a {
+  color: #9d8189;
+}
+
+a:hover {
+  color: #d8e2dc;
+}
+
+.paticka {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f4acb7;
+  margin-left: -200px;
+  margin-right: -200px;
+}
